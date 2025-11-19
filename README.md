@@ -1,4 +1,241 @@
-<div align="center"><div align="center"><div align="center"># 📱 CheckMe Todo - Premium Task Management App# checkme_todo
+<div align="center">
+
+# 📱 CheckMe Todo
+### Premium Task Management Application
+
+![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**A beautiful, feature-rich Todo application built with Flutter.**  
+*Real authentication, user‑specific data isolation, analytics, achievements, and polished UI/UX.*
+
+---
+
+[Features](#-features) • [Screenshots](#-screenshots) • [Installation](#-installation) • [Architecture](#-architecture) • [Technologies](#-technologies) • [Design System](#-design-system) • [Roadmap](#-roadmap) • [Contributing](#-contributing)
+
+</div>
+
+## ✨ Features
+
+### 🔐 Authentication
+| Capability | Description |
+|------------|-------------|
+| Real Accounts | Email + password account creation & validation |
+| Secure Login | Credential verification with error messaging |
+| Data Isolation | Per‑user separated todo storage |
+| Persistent Sessions | Auto login after app restart |
+| Multi‑Account Support | Seamlessly switch accounts |
+
+### 📝 Todo Management
+| Feature | Details |
+|---------|---------|
+| Create & Edit | Title, description, due date, category |
+| Categories | Personal · Work · School · Urgent |
+| Smart Filtering | By category + search query |
+| Status Tracking | Complete / pending with visual cues |
+| Detailed View | Full task info + edit/delete actions |
+| Overdue Detection | Automatic past‑due highlighting |
+
+### 📊 Analytics & Insights
+Productivity score, category distribution, weekly progress, completion rate, and smart derived insights for better planning.
+
+### 👤 Profile & Personalization
+Achievement badges, statistics dashboard, theme switching (Light / Dark / System), and customizable user avatar.
+
+### 🎨 Polished UI/UX
+Modern gradients, smooth micro‑interactions, responsive layouts, accessible color contrast, and cohesive typography.
+
+---
+
+## 📸 Screenshots
+> Replace the placeholder image paths (`assets/screens/...`) with your real screenshot files.
+
+### Landing & Auth
+| Landing | Login | Signup |
+|:------:|:-----:|:------:|
+| ![Landing](assets/screens/landing.png) | ![Login](assets/screens/login.png) | ![Signup](assets/screens/signup.png) |
+
+### Core Screens
+| Home | Analytics | Profile |
+|:---:|:--------:|:------:|
+| ![Home](assets/screens/home.png) | ![Analytics](assets/screens/analytics.png) | ![Profile](assets/screens/profile.png) |
+
+### Task Flow
+| Add Todo | Todo Details | Category Filter |
+|:--------:|:-----------:|:---------------:|
+| ![Add](assets/screens/add_todo.png) | ![Details](assets/screens/todo_detail.png) | ![Filter](assets/screens/filter.png) |
+
+### Themes
+| Light | Dark |
+|:----:|:----:|
+| ![Light](assets/screens/light.png) | ![Dark](assets/screens/dark.png) |
+
+<!-- Optional Demo Video Section
+## 🎥 Demo
+Add a thumbnail linked to YouTube / Vimeo, or a direct MP4 in GitHub Releases.
+[![Demo Video](assets/screens/demo-thumb.png)](https://your-video-link)
+-->
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+Flutter SDK ≥ 3.0 · Dart ≥ 3.0 · Android Studio or VS Code (Flutter plugin) · Emulator or physical device.
+
+### Quick Start
+```bash
+git clone https://github.com/yourusername/checkme-todo.git
+cd checkme-todo
+flutter pub get
+flutter run            # Android emulator or connected device
+flutter run -d ios     # iOS simulator
+flutter run -d chrome  # Web
+```
+
+### Production Builds
+```bash
+flutter build apk --release      # Android
+flutter build ios --release      # iOS (requires Xcode setup)
+flutter build web --release      # Web
+```
+
+---
+
+## 🏗️ Architecture
+
+### Directory Layout
+```
+lib/
+├── main.dart                 # App bootstrap & root widgets
+├── models/                   # Data models (user, todo, badge)
+├── providers/                # Riverpod providers (auth, todo, theme)
+├── screens/                  # UI pages
+├── widgets/                  # Reusable components
+└── theme/                    # Theming & style definitions
+```
+
+### State Management (Riverpod)
+| Provider | Purpose |
+|----------|---------|
+| authProvider | Auth state & session lifecycle |
+| todoProvider | CRUD + per‑user persistence |
+| themeModeProvider | Light / Dark / System mode control |
+| filteredTodosProvider | Computed filtered list |
+| completedTodosProvider | Derived completed tasks |
+| pendingTodosProvider | Derived pending tasks |
+| overdueTodosProvider | Derived overdue tasks |
+
+### Data Persistence (SharedPreferences)
+| Key | Description |
+|-----|-------------|
+| user_accounts | Array of registered user objects |
+| current_user | Active session object |
+| todos_{email} | Per‑user todo list JSON array |
+| theme_mode | Stored theme preference |
+
+---
+
+## 💻 Technologies
+| Area | Tools |
+|------|-------|
+| Core | Flutter · Dart · Material Design 3 |
+| State | Riverpod 2.4.9 · StateNotifier |
+| Storage | SharedPreferences 2.2.2 · JSON serialization |
+| UI/UX | Google Fonts 6.1.0 · Intl 0.19.0 · Custom animations |
+| Quality | Flutter Lints 3.0.0 |
+
+---
+
+## 🎨 Design System
+
+### Colors
+| Name | Hex | Usage |
+|------|-----|-------|
+| Primary Teal | `#00ACC1` | Buttons, highlights |
+| Accent Coral | `#FF6F61` | Calls to action |
+| Success Green | `#10B981` | Success states |
+| Warning Amber | `#F59E0B` | Urgent / warning |
+| Error Red | `#EF4444` | Errors / destructive |
+| Info Blue | `#3B82F6` | Informational elements |
+
+### Spacing Scale (px)
+`4, 8, 16, 24, 32, 48, 64` (multiples of 4 for rhythm & consistency)
+
+### Typography
+Curated Google Fonts with distinct weights for headings, body, and auxiliary labels ensuring readability and hierarchy.
+
+### Interaction Principles
+Small elevation changes, fade & scale transitions, consistent 12–16px tap targets, and accessible contrast ratios.
+
+---
+
+## 🔑 Key Flows
+**Signup → Login → Isolated Todo Management → Analytics Review → Profile & Theming.**  
+Badge unlocking encourages ongoing engagement (first task, 10, 25, 50, streaks, category diversity).
+
+---
+
+## 📱 Platform Support
+| Platform | Status | Notes |
+|----------|--------|-------|
+| Android  | ✅ | Tested 5.0+ |
+| iOS      | ✅ | Tested 11.0+ |
+| Web      | ✅ | Modern browsers |
+| Windows  | ⚠️ | Experimental |
+| macOS    | ⚠️ | Experimental |
+| Linux    | ⚠️ | Experimental |
+
+---
+
+## 🗺️ Roadmap
+| Milestone | Planned Additions |
+|-----------|------------------|
+| v1.1 | Search debounce & offline caching |
+| v1.2 | Push notifications for due tasks |
+| v1.3 | Cloud sync (Firebase / Supabase) |
+| v2.0 | Team collaboration & shared lists |
+
+---
+
+## 🤝 Contributing
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feature/awesome-improvement`
+3. Commit: `git commit -m "feat: add awesome improvement"`
+4. Push: `git push origin feature/awesome-improvement`
+5. Open a Pull Request
+
+Follow existing code style & add tests where applicable.
+
+---
+
+## 👨‍💻 Author
+**Your Name**  
+[GitHub @yourusername](https://github.com/yourusername) · your.email@example.com
+
+## 🙏 Acknowledgements
+Flutter team · Riverpod community · Material Design guidelines · Open‑source contributors.
+
+## 📞 Support
+| Channel | Purpose |
+|---------|---------|
+| Issues | Bug reports & feature requests |
+| Wiki | Extended documentation |
+| Email | Direct support (support@yourapp.com) |
+
+## ⭐ License
+MIT License – See `LICENSE` for details.
+
+<div align="center">
+
+**If this project helps you, please ⭐ it!**  
+Made with ❤️ using Flutter.
+
+© 2024 CheckMe Todo
+
+</div><div align="center"><div align="center"><div align="center"># 📱 CheckMe Todo - Premium Task Management App# checkme_todo
 
 
 
