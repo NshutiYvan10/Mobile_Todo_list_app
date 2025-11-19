@@ -235,7 +235,7 @@ Made with ❤️ using Flutter.
 
 © 2024 CheckMe Todo
 
-</div><div align="center"><div align="center"><div align="center"># 📱 CheckMe Todo - Premium Task Management App# checkme_todo
+</div>
 
 
 
