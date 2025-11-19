@@ -1,306 +1,608 @@
-<div align="center"><div align="center"># 📱 CheckMe Todo - Premium Task Management App# checkme_todo
+<div align="center"><div align="center"><div align="center"># 📱 CheckMe Todo - Premium Task Management App# checkme_todo
 
 
 
 # 📱 CheckMe Todo
 
+### Premium Task Management Application
 
+# 📱 CheckMe Todo
 
-### Premium Task Management App# 📱 CheckMe Todo
-
-
-
-![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)### Premium Task Management App
+![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 ![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
+![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)
+
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)### Premium Task Management App# 📱 CheckMe Todo
+
+
+
+**A beautiful, feature-rich todo application built with Flutter**  
+
+*Featuring real authentication, user-specific data, and premium UI/UX design*
+
+![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)### Premium Task Management App
+
+---
+
+![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+
+[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🚀 Installation](#-installation) • [🏗️ Architecture](#-architecture) • [💻 Technologies](#-technologies)
+
 ![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)<div align="center">A new Flutter project.
 
-
-
-**A beautiful, feature-rich todo application built with Flutter**![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-
-
-
-Featuring real authentication, user-specific data, and a premium UI/UX design![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-
-
-
----![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)
-
-
-
-[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Demo Video](#-demo-video) • [🚀 Installation](#-installation) • [🏗️ Architecture](#-architecture) • [💻 Technologies](#-technologies)![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)## Getting Started
-
-
-
-</div>**A beautiful, feature-rich todo application built with Flutter**  
-
-
-
----**Featuring real authentication, user-specific data, and a premium UI/UX design**![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+</div>
 
 
 
 ## ✨ Features
 
+**A beautiful, feature-rich todo application built with Flutter**![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
-
-### 🔐 Authentication System---![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)This project is a starting point for a Flutter application.
+### 🔐 Authentication System
 
 - ✅ **Real User Accounts** - Create actual accounts with email and password
 
 - ✅ **Secure Login** - Credential verification with error handling
 
-- ✅ **Data Isolation** - Each user has completely isolated, personal todo data
+- ✅ **Data Isolation** - Each user has completely isolated, personal todo dataFeaturing real authentication, user-specific data, and a premium UI/UX design![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-- ✅ **Persistent Sessions** - Stay logged in across app restarts[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Demo Video](#-demo-video) • [🚀 Installation](#-installation) • [🏗️ Architecture](#-architecture) • [💻 Technologies](#-technologies)![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+- ✅ **Persistent Sessions** - Stay logged in across app restarts
 
 - ✅ **Multiple Account Support** - Switch between different user accounts
 
 
 
-### ✅ Todo Management
+### 📝 Todo Management---![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)
 
-- 📝 **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates</div>A few resources to get you started if this is your first Flutter project:
+- 📝 **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates
 
 - 🏷️ **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
 
 - 🔍 **Smart Filtering** - Filter todos by category and search by keywords
 
-- 📅 **Due Date Tracking** - Set and track due dates with overdue indicators
+- 📅 **Due Date Tracking** - Set and track due dates with overdue indicators[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Demo Video](#-demo-video) • [🚀 Installation](#-installation) • [🏗️ Architecture](#-architecture) • [💻 Technologies](#-technologies)![Flutter](https://img.shields.io/badge/Flutter-3.0%2B-02569B?style=for-the-badge&logo=flutter&logoColor=white)## Getting Started
 
-- ✔️ **Status Management** - Mark todos as complete/incomplete with visual feedback---**A beautiful, feature-rich todo application built with Flutter featuring real authentication, user-specific data, and a premium UI/UX design.**
+- ✔️ **Status Management** - Mark todos as complete/incomplete with visual feedback
 
 - 👁️ **Detailed View** - View full todo details with edit and delete options
 
 
 
-### 📊 Analytics & Insights
+### 📊 Analytics & Insights</div>**A beautiful, feature-rich todo application built with Flutter**  
 
-- 📈 **Productivity Score** - Real-time calculation of your productivity## ✨ Features- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- 📈 **Productivity Score** - Real-time calculation of your productivity
 
 - 📉 **Category Performance** - Visualize task distribution across categories
 
 - 📆 **Weekly Progress** - Track completed tasks throughout the week
 
-- 🎯 **Task Distribution** - See breakdown of completed, pending, and overdue tasks
+- 🎯 **Task Distribution** - See breakdown of completed, pending, and overdue tasks---**Featuring real authentication, user-specific data, and a premium UI/UX design**![Dart](https://img.shields.io/badge/Dart-3.0%2B-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-- 💯 **Completion Rate** - Monitor your overall task completion percentage### 🔐 **Authentication System**[Features](#-features) • [Screenshots](#-screenshots) • [Demo Video](#-demo-video) • [Installation](#-installation) • [Architecture](#-architecture) • [Technologies](#-technologies)- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 💯 **Completion Rate** - Monitor your overall task completion percentage
 
 - 💡 **Smart Insights** - Get personalized productivity insights
 
-- **Real User Accounts** - Create actual accounts with email and password
 
-### 👤 User Profile
 
-- 🏆 **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)- **Secure Login** - Credential verification with error handling
+### 👤 User Profile## ✨ Features
+
+- 🏆 **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)
 
 - 📊 **Statistics Dashboard** - View total, completed, and pending task counts
 
-- 🌓 **Theme Switching** - Toggle between Light, Dark, and System themes- **Data Isolation** - Each user has completely isolated, personal todo data
+- 🌓 **Theme Switching** - Toggle between Light, Dark, and System themes
 
-- 🎨 **Profile Customization** - Personalized avatars and user information
-
-- 📈 **Data Management** - Clear insights into your productivity journey- **Persistent Sessions** - Stay logged in across app restarts</div>For help getting started with Flutter development, view the
+- 🎨 **Profile Customization** - Personalized avatars and user information### 🔐 Authentication System---![Riverpod](https://img.shields.io/badge/Riverpod-2.4.9-00ACC1?style=for-the-badge)This project is a starting point for a Flutter application.
 
 
 
-### 🎨 Premium UI/UX- **Multiple Account Support** - Switch between different user accounts
+### 🎨 Premium UI/UX- ✅ **Real User Accounts** - Create actual accounts with email and password
 
 - ✨ **Modern Design** - Clean, professional interface with gradient accents
 
-- 🎭 **Smooth Animations** - Fluid transitions and micro-interactions[online documentation](https://docs.flutter.dev/), which offers tutorials,
+- 🎭 **Smooth Animations** - Fluid transitions and micro-interactions- ✅ **Secure Login** - Credential verification with error handling
 
 - 🌙 **Dark Mode Support** - Beautiful dark theme with optimized colors
 
-- 📱 **Responsive Layout** - Adapts perfectly to different screen sizes### ✅ **Todo Management**
+- 📱 **Responsive Layout** - Adapts perfectly to different screen sizes- ✅ **Data Isolation** - Each user has completely isolated, personal todo data
 
 - 🧭 **Custom Navigation** - Sleek bottom navigation with gradient highlights
 
-- 🎯 **Consistent Theming** - Unified color palette across all screens- **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates---samples, guidance on mobile development, and a full API reference.
+- ✅ **Persistent Sessions** - Stay logged in across app restarts[✨ Features](#-features) • [📸 Screenshots](#-screenshots) • [🎥 Demo Video](#-demo-video) • [🚀 Installation](#-installation) • [🏗️ Architecture](#-architecture) • [💻 Technologies](#-technologies)![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+## 📸 Screenshots
 
-
-### 🔔 Smart Features- **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
-
-- ⚠️ **Overdue Detection** - Automatic identification of overdue tasks
-
-- 💬 **Daily Quotes** - Motivational quotes to keep you inspired- **Smart Filtering** - Filter todos by category and search by keywords
-
-- 👋 **Greeting System** - Time-based greetings (Good Morning, Afternoon, Evening)
-
-- 📭 **Empty States** - Helpful messages when no tasks exist- **Due Date Tracking** - Set and track due dates with overdue indicators## ✨ Features
-
-- 🔎 **Search Functionality** - Quickly find tasks with real-time search
-
-- ⚡ **Batch Operations** - Efficiently manage multiple tasks- **Status Management** - Mark todos as complete/incomplete with visual feedback
-
-
-
----- **Detailed View** - View full todo details with edit and delete options### 🔐 **Authentication System**
-
-
-
-## 📸 Screenshots- **Real User Accounts** - Create actual accounts with email and password
-
-
-
-<div align="center">### 📊 **Analytics & Insights**- **Secure Login** - Credential verification with error handling
-
-
-
-### 🎯 Main Features- **Productivity Score** - Real-time calculation of your productivity- **Data Isolation** - Each user has completely isolated, personal todo data
-
-
-
-| Home Screen | Analytics | Profile |- **Category Performance** - Visualize task distribution across categories- **Persistent Sessions** - Stay logged in across app restarts
-
-|:---:|:---:|:---:|
-
-| Task overview with stats | Productivity insights | User dashboard |- **Weekly Progress** - Track completed tasks throughout the week- **Multiple Account Support** - Switch between different user accounts
-
-
-
-### 🔐 Authentication- **Task Distribution** - See breakdown of completed, pending, and overdue tasks
-
-
-
-| Landing Screen | Login | Signup |- **Completion Rate** - Monitor your overall task completion percentage### ✅ **Todo Management**
-
-|:---:|:---:|:---:|
-
-| Beautiful onboarding | Secure login | Easy registration |- **Smart Insights** - Get personalized productivity insights- **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates
-
-
-
-### ✅ Task Management- **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
-
-
-
-| Add Todo | Todo Details | Category Filter |### 👤 **User Profile**- **Smart Filtering** - Filter todos by category and search by keywords
-
-|:---:|:---:|:---:|
-
-| Create new tasks | View & edit | Filter by category |- **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)- **Due Date Tracking** - Set and track due dates with overdue indicators
-
-
-
-### 🌓 Themes- **Statistics Dashboard** - View total, completed, and pending task counts- **Status Management** - Mark todos as complete/incomplete with visual feedback
-
-
-
-| Light Mode | Dark Mode |- **Theme Switching** - Toggle between Light, Dark, and System themes- **Detailed View** - View full todo details with edit and delete options
-
-|:---:|:---:|
-
-| Clean & bright | Easy on the eyes |- **Profile Customization** - Personalized avatars and user information
-
-
-
-</div>- **Data Management** - Clear insights into your productivity journey### 📊 **Analytics & Insights**
-
-
-
----- **Productivity Score** - Real-time calculation of your productivity
-
-
-
-## 🎥 Demo Video### 🎨 **Premium UI/UX**- **Category Performance** - Visualize task distribution across categories
-
-
-
-<div align="center">- **Modern Design** - Clean, professional interface with gradient accents- **Weekly Progress** - Track completed tasks throughout the week
-
-
-
-### 📹 Watch the App in Action- **Smooth Animations** - Fluid transitions and micro-interactions- **Task Distribution** - See breakdown of completed, pending, and overdue tasks
-
-
-
-*Video demonstration coming soon!*- **Dark Mode Support** - Beautiful dark theme with optimized colors- **Completion Rate** - Monitor your overall task completion percentage
-
-
-
-<!-- - **Responsive Layout** - Adapts perfectly to different screen sizes- **Smart Insights** - Get personalized productivity insights
-
-To add your video, replace this comment with:
-
-- **Custom Navigation** - Sleek bottom navigation with gradient highlights
-
-For YouTube/Vimeo:
-
-[![CheckMe Todo Demo](thumbnail.png)](https://your-video-link.com)- **Consistent Theming** - Unified color palette across all screens### 👤 **User Profile**
-
-
-
-For direct video:- **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)
-
-https://github.com/user-attachments/assets/your-video-file.mp4
-
--->### 🔔 **Smart Features**- **Statistics Dashboard** - View total, completed, and pending task counts
-
-
-
-**The video will showcase:**- **Overdue Detection** - Automatic identification of overdue tasks- **Theme Switching** - Toggle between Light, Dark, and System themes
-
-- 🎬 Complete authentication flow (signup & login)
-
-- ✅ Creating and managing todos- **Daily Quotes** - Motivational quotes to keep you inspired- **Profile Customization** - Personalized avatars and user information
-
-- 🔍 Filtering and searching tasks
-
-- 📊 Analytics dashboard with insights- **Greeting System** - Time-based greetings (Good Morning, Afternoon, Evening)- **Data Management** - Clear insights into your productivity journey
-
-- 👤 Profile customization
-
-- 🌓 Theme switching (light/dark mode)- **Empty States** - Helpful messages when no tasks exist
-
-- ✨ Overall user experience
-
-- **Search Functionality** - Quickly find tasks with real-time search### 🎨 **Premium UI/UX**
-
-</div>
-
-- **Batch Operations** - Efficiently manage multiple tasks- **Modern Design** - Clean, professional interface with gradient accents
-
----
-
-- **Smooth Animations** - Fluid transitions and micro-interactions
-
-## 🚀 Installation
-
----- **Dark Mode Support** - Beautiful dark theme with optimized colors
-
-### Prerequisites
-
-- **Responsive Layout** - Adapts perfectly to different screen sizes
-
-Before you begin, ensure you have the following installed:
-
-- Flutter SDK (3.0 or higher)## 📸 Screenshots- **Custom Navigation** - Sleek bottom navigation with gradient highlights
-
-- Dart SDK (3.0 or higher)
-
-- Android Studio or VS Code with Flutter extension- **Consistent Theming** - Unified color palette across all screens
-
-- An Android emulator or iOS simulator
+- ✅ **Multiple Account Support** - Switch between different user accounts
 
 <div align="center">
 
-### Setup Steps
 
-### 🔔 **Smart Features**
 
-**1. Clone the repository**
+### Landing & Authentication
 
-```bash### Landing & Authentication- **Overdue Detection** - Automatic identification of overdue tasks
+| Landing Screen | Login Screen | Signup Screen |### ✅ Todo Management
 
-git clone https://github.com/yourusername/checkme-todo.git
+|:---:|:---:|:---:|
 
-cd checkme-todo| Landing Screen | Login Screen | Signup Screen |- **Daily Quotes** - Motivational quotes to keep you inspired
+| *Beautiful onboarding experience* | *Secure user login* | *Easy account creation* |- 📝 **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates</div>A few resources to get you started if this is your first Flutter project:
+
+
+
+### Main Features- 🏷️ **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
+
+| Home Screen | Analytics Dashboard | Profile Screen |
+
+|:---:|:---:|:---:|- 🔍 **Smart Filtering** - Filter todos by category and search by keywords
+
+| *Task overview with smart insights* | *Productivity analytics* | *User dashboard & settings* |
+
+- 📅 **Due Date Tracking** - Set and track due dates with overdue indicators
+
+### Task Management
+
+| Add Todo | Todo Details | Category Filter |- ✔️ **Status Management** - Mark todos as complete/incomplete with visual feedback---**A beautiful, feature-rich todo application built with Flutter featuring real authentication, user-specific data, and a premium UI/UX design.**
+
+|:---:|:---:|:---:|
+
+| *Create new tasks easily* | *View & edit task details* | *Filter by categories* |- 👁️ **Detailed View** - View full todo details with edit and delete options
+
+
+
+### Themes
+
+| Light Mode | Dark Mode |
+
+|:---:|:---:|### 📊 Analytics & Insights
+
+| *Clean & bright interface* | *Easy on the eyes* |
+
+- 📈 **Productivity Score** - Real-time calculation of your productivity## ✨ Features- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+
+</div>
+
+- 📉 **Category Performance** - Visualize task distribution across categories
+
+## 🚀 Installation
+
+- 📆 **Weekly Progress** - Track completed tasks throughout the week
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:- 🎯 **Task Distribution** - See breakdown of completed, pending, and overdue tasks
+
+- Flutter SDK (3.0 or higher)
+
+- Dart SDK (3.0 or higher)- 💯 **Completion Rate** - Monitor your overall task completion percentage### 🔐 **Authentication System**[Features](#-features) • [Screenshots](#-screenshots) • [Demo Video](#-demo-video) • [Installation](#-installation) • [Architecture](#-architecture) • [Technologies](#-technologies)- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+- Android Studio or VS Code with Flutter extension
+
+- An Android emulator or iOS simulator- 💡 **Smart Insights** - Get personalized productivity insights
+
+
+
+### Quick Start- **Real User Accounts** - Create actual accounts with email and password
+
+
+
+1. **Clone the repository**### 👤 User Profile
+
+   ```bash
+
+   git clone https://github.com/yourusername/checkme-todo.git- 🏆 **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)- **Secure Login** - Credential verification with error handling
+
+   cd checkme-todo
+
+   ```- 📊 **Statistics Dashboard** - View total, completed, and pending task counts
+
+
+
+2. **Install dependencies**- 🌓 **Theme Switching** - Toggle between Light, Dark, and System themes- **Data Isolation** - Each user has completely isolated, personal todo data
+
+   ```bash
+
+   flutter pub get- 🎨 **Profile Customization** - Personalized avatars and user information
+
+   ```
+
+- 📈 **Data Management** - Clear insights into your productivity journey- **Persistent Sessions** - Stay logged in across app restarts</div>For help getting started with Flutter development, view the
+
+3. **Run the app**
+
+   ```bash
+
+   # For Android
+
+   flutter run### 🎨 Premium UI/UX- **Multiple Account Support** - Switch between different user accounts
+
+
+
+   # For iOS- ✨ **Modern Design** - Clean, professional interface with gradient accents
+
+   flutter run -d ios
+
+- 🎭 **Smooth Animations** - Fluid transitions and micro-interactions[online documentation](https://docs.flutter.dev/), which offers tutorials,
+
+   # For Web
+
+   flutter run -d chrome- 🌙 **Dark Mode Support** - Beautiful dark theme with optimized colors
+
+   ```
+
+- 📱 **Responsive Layout** - Adapts perfectly to different screen sizes### ✅ **Todo Management**
+
+4. **Build for production**
+
+   ```bash- 🧭 **Custom Navigation** - Sleek bottom navigation with gradient highlights
+
+   # Android APK
+
+   flutter build apk --release- 🎯 **Consistent Theming** - Unified color palette across all screens- **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates---samples, guidance on mobile development, and a full API reference.
+
+
+
+   # iOS
+
+   flutter build ios --release
+
+### 🔔 Smart Features- **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
+
+   # Web
+
+   flutter build web --release- ⚠️ **Overdue Detection** - Automatic identification of overdue tasks
+
+   ```
+
+- 💬 **Daily Quotes** - Motivational quotes to keep you inspired- **Smart Filtering** - Filter todos by category and search by keywords
+
+## 🏗️ Architecture
+
+- 👋 **Greeting System** - Time-based greetings (Good Morning, Afternoon, Evening)
+
+### Project Structure
+
+```- 📭 **Empty States** - Helpful messages when no tasks exist- **Due Date Tracking** - Set and track due dates with overdue indicators## ✨ Features
+
+lib/
+
+├── main.dart                 # App entry point- 🔎 **Search Functionality** - Quickly find tasks with real-time search
+
+├── models/                   # Data models
+
+│   ├── user.dart            # User account model- ⚡ **Batch Operations** - Efficiently manage multiple tasks- **Status Management** - Mark todos as complete/incomplete with visual feedback
+
+│   ├── todo.dart            # Todo model with categories
+
+│   └── badge.dart           # Achievement badge system
+
+├── providers/               # State management (Riverpod)
+
+│   ├── auth_provider.dart   # Authentication logic---- **Detailed View** - View full todo details with edit and delete options### 🔐 **Authentication System**
+
+│   ├── todo_provider.dart   # Todo CRUD operations
+
+│   └── theme_provider.dart  # Theme management
+
+├── screens/                 # UI screens
+
+│   ├── landing_screen.dart  # App onboarding## 📸 Screenshots- **Real User Accounts** - Create actual accounts with email and password
+
+│   ├── login_screen.dart    # User authentication
+
+│   ├── signup_screen.dart   # Account creation
+
+│   ├── main_navigation.dart # Bottom navigation
+
+│   ├── home_screen.dart     # Main todo interface<div align="center">### 📊 **Analytics & Insights**- **Secure Login** - Credential verification with error handling
+
+│   ├── add_todo_screen.dart # Create/edit todos
+
+│   ├── todo_detail_screen.dart # Todo details
+
+│   ├── analytics_screen.dart   # Statistics & insights
+
+│   └── profile_screen.dart     # User profile### 🎯 Main Features- **Productivity Score** - Real-time calculation of your productivity- **Data Isolation** - Each user has completely isolated, personal todo data
+
+├── widgets/                 # Reusable components
+
+│   └── todo_item.dart       # Todo list item widget
+
+└── theme/                   # App theming
+
+    └── app_theme.dart       # Colors, styles, themes| Home Screen | Analytics | Profile |- **Category Performance** - Visualize task distribution across categories- **Persistent Sessions** - Stay logged in across app restarts
 
 ```
+
+|:---:|:---:|:---:|
+
+### State Management
+
+**Riverpod** is used for robust, testable state management:| Task overview with stats | Productivity insights | User dashboard |- **Weekly Progress** - Track completed tasks throughout the week- **Multiple Account Support** - Switch between different user accounts
+
+
+
+| Provider | Purpose |
+
+|----------|---------|
+
+| `authProvider` | Manages user authentication state |### 🔐 Authentication- **Task Distribution** - See breakdown of completed, pending, and overdue tasks
+
+| `todoProvider` | Handles todo CRUD operations |
+
+| `themeModeProvider` | Controls app theme (light/dark/system) |
+
+| `filteredTodosProvider` | Computed state for filtered todos |
+
+| `completedTodosProvider` | Derived state for completed tasks || Landing Screen | Login | Signup |- **Completion Rate** - Monitor your overall task completion percentage### ✅ **Todo Management**
+
+| `pendingTodosProvider` | Derived state for pending tasks |
+
+| `overdueTodosProvider` | Derived state for overdue tasks ||:---:|:---:|:---:|
+
+
+
+### Data Persistence| Beautiful onboarding | Secure login | Easy registration |- **Smart Insights** - Get personalized productivity insights- **Create & Edit Todos** - Rich todo creation with titles, descriptions, and due dates
+
+**SharedPreferences** is used for local data storage:
+
+
+
+| Key | Content |
+
+|-----|---------|### ✅ Task Management- **Category Organization** - Organize tasks by Personal, Work, School, or Urgent
+
+| `user_accounts` | All registered user accounts (JSON array) |
+
+| `current_user` | Current logged-in user session (JSON object) |
+
+| `todos_{userEmail}` | User-specific todos (JSON array per user) |
+
+| `theme_mode` | User's theme preference (string) || Add Todo | Todo Details | Category Filter |### 👤 **User Profile**- **Smart Filtering** - Filter todos by category and search by keywords
+
+
+
+## 💻 Technologies|:---:|:---:|:---:|
+
+
+
+### Core Technologies| Create new tasks | View & edit | Filter by category |- **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)- **Due Date Tracking** - Set and track due dates with overdue indicators
+
+- **Flutter** - Cross-platform UI framework
+
+- **Dart** - Programming language
+
+- **Material Design 3** - Modern UI components
+
+### 🌓 Themes- **Statistics Dashboard** - View total, completed, and pending task counts- **Status Management** - Mark todos as complete/incomplete with visual feedback
+
+### State Management
+
+- **Riverpod 2.4.9** - Robust state management solution
+
+- **StateNotifier** - Managing complex state logic
+
+| Light Mode | Dark Mode |- **Theme Switching** - Toggle between Light, Dark, and System themes- **Detailed View** - View full todo details with edit and delete options
+
+### Data & Storage
+
+- **SharedPreferences 2.2.2** - Local data persistence|:---:|:---:|
+
+- **JSON Serialization** - Data encoding/decoding
+
+| Clean & bright | Easy on the eyes |- **Profile Customization** - Personalized avatars and user information
+
+### UI/UX Libraries
+
+- **Google Fonts 6.1.0** - Custom typography
+
+- **Intl 0.19.0** - Date formatting and localization
+
+- **Custom Animations** - Smooth transitions and interactions</div>- **Data Management** - Clear insights into your productivity journey### 📊 **Analytics & Insights**
+
+
+
+### Development Tools
+
+- **Flutter Lints 3.0.0** - Code quality and best practices
+
+---- **Productivity Score** - Real-time calculation of your productivity
+
+## 🎨 Design System
+
+
+
+### Color Palette
+
+| Color | Hex Code | Usage |## 🎥 Demo Video### 🎨 **Premium UI/UX**- **Category Performance** - Visualize task distribution across categories
+
+|-------|----------|-------|
+
+| Primary Teal | `#00ACC1` | Main brand color, buttons, highlights |
+
+| Accent Coral | `#FF6F61` | Call-to-action, important elements |
+
+| Success Green | `#10B981` | Completed tasks, success messages |<div align="center">- **Modern Design** - Clean, professional interface with gradient accents- **Weekly Progress** - Track completed tasks throughout the week
+
+| Warning Amber | `#F59E0B` | Urgent tasks, warnings |
+
+| Error Red | `#EF4444` | Overdue tasks, errors, delete actions |
+
+| Info Blue | `#3B82F6` | Information, tips, neutral actions |
+
+### 📹 Watch the App in Action- **Smooth Animations** - Fluid transitions and micro-interactions- **Task Distribution** - See breakdown of completed, pending, and overdue tasks
+
+### Typography
+
+Custom Google Fonts with carefully chosen weights for hierarchy and readability.
+
+
+
+### Spacing System*Video demonstration coming soon!*- **Dark Mode Support** - Beautiful dark theme with optimized colors- **Completion Rate** - Monitor your overall task completion percentage
+
+Consistent spacing scale based on multiples of 4px:
+
+- **xs**: 4px • **sm**: 8px • **md**: 16px • **lg**: 24px • **xl**: 32px • **xxl**: 48px • **xxxl**: 64px
+
+
+
+## 🔑 Key Features Explained<!-- - **Responsive Layout** - Adapts perfectly to different screen sizes- **Smart Insights** - Get personalized productivity insights
+
+
+
+### 🔐 User Authentication FlowTo add your video, replace this comment with:
+
+1. **Signup** → User creates account → Email validation → Password security check → Account stored locally
+
+2. **Login** → Email verification → Password verification → Session creation → Redirect to app- **Custom Navigation** - Sleek bottom navigation with gradient highlights
+
+3. **Data Isolation** → Each user's todos stored separately using email as unique identifier
+
+4. **Logout** → Session cleared → Return to landing screenFor YouTube/Vimeo:
+
+
+
+### 🏷️ Todo Categories[![CheckMe Todo Demo](thumbnail.png)](https://your-video-link.com)- **Consistent Theming** - Unified color palette across all screens### 👤 **User Profile**
+
+| Category | Icon | Description |
+
+|----------|------|-------------|
+
+| Personal | 💜 | Personal tasks and errands |
+
+| Work | ❤️ | Professional and work-related tasks |For direct video:- **Achievement Badges** - Unlock badges for milestones (First Task, 10 Tasks, 25 Tasks, etc.)
+
+| School | 💙 | Academic and learning tasks |
+
+| Urgent | 🧡 | Time-sensitive priorities |https://github.com/user-attachments/assets/your-video-file.mp4
+
+
+
+### 🏆 Achievement System-->### 🔔 **Smart Features**- **Statistics Dashboard** - View total, completed, and pending task counts
+
+Unlock badges as you progress:
+
+- 🚀 **Getting Started** - Complete your first todo
+
+- 🏆 **Task Master** - Complete 10 todos
+
+- 📈 **Productivity Pro** - Complete 25 todos**The video will showcase:**- **Overdue Detection** - Automatic identification of overdue tasks- **Theme Switching** - Toggle between Light, Dark, and System themes
+
+- 👑 **Super Organizer** - Complete 50 todos
+
+- 🔥 **7-Day Streak** - Complete todos for 7 consecutive days- 🎬 Complete authentication flow (signup & login)
+
+- ⭐ **Category Expert** - Complete tasks in all categories
+
+- ✅ Creating and managing todos- **Daily Quotes** - Motivational quotes to keep you inspired- **Profile Customization** - Personalized avatars and user information
+
+## 📱 Platform Support
+
+- 🔍 Filtering and searching tasks
+
+| Platform | Status | Notes |
+
+|----------|--------|-------|- 📊 Analytics dashboard with insights- **Greeting System** - Time-based greetings (Good Morning, Afternoon, Evening)- **Data Management** - Clear insights into your productivity journey
+
+| Android | ✅ Fully Supported | Tested on Android 5.0+ |
+
+| iOS | ✅ Fully Supported | Tested on iOS 11.0+ |- 👤 Profile customization
+
+| Web | ✅ Supported | Modern browsers |
+
+| Windows | ⚠️ Experimental | Basic functionality |- 🌓 Theme switching (light/dark mode)- **Empty States** - Helpful messages when no tasks exist
+
+| macOS | ⚠️ Experimental | Basic functionality |
+
+| Linux | ⚠️ Experimental | Basic functionality |- ✨ Overall user experience
+
+
+
+## 🤝 Contributing- **Search Functionality** - Quickly find tasks with real-time search### 🎨 **Premium UI/UX**
+
+
+
+Contributions are welcome! Please follow these steps:</div>
+
+
+
+1. Fork the repository- **Batch Operations** - Efficiently manage multiple tasks- **Modern Design** - Clean, professional interface with gradient accents
+
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)---
+
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+
+5. Open a Pull Request- **Smooth Animations** - Fluid transitions and micro-interactions
+
+
+
+Please ensure your code follows the existing style and includes appropriate tests.## 🚀 Installation
+
+
+
+## 👨‍💻 Author---- **Dark Mode Support** - Beautiful dark theme with optimized colors
+
+
+
+**Your Name**### Prerequisites
+
+- GitHub: [@yourusername](https://github.com/yourusername)
+
+- Email: your.email@example.com- **Responsive Layout** - Adapts perfectly to different screen sizes
+
+
+
+## 🙏 AcknowledgmentsBefore you begin, ensure you have the following installed:
+
+
+
+- Flutter team for the amazing framework- Flutter SDK (3.0 or higher)## 📸 Screenshots- **Custom Navigation** - Sleek bottom navigation with gradient highlights
+
+- Riverpod community for excellent state management
+
+- Material Design for design inspiration- Dart SDK (3.0 or higher)
+
+- All open-source contributors
+
+- Android Studio or VS Code with Flutter extension- **Consistent Theming** - Unified color palette across all screens
+
+## 📞 Support
+
+- An Android emulator or iOS simulator
+
+If you encounter any issues or have questions:
+
+- 📝 [Open an issue](https://github.com/yourusername/checkme-todo/issues)<div align="center">
+
+- 📧 Email: support@yourapp.com
+
+- 📚 [Documentation](https://github.com/yourusername/checkme-todo/wiki)### Setup Steps
+
+
+
+---### 🔔 **Smart Features**
+
+
+
+<div align="center">**1. Clone the repository**
+
+
+
+### ⭐ Star this repository if you find it helpful!```bash### Landing & Authentication- **Overdue Detection** - Automatic identification of overdue tasks
+
+
+
+**Made with ❤️ using Flutter**git clone https://github.com/yourusername/checkme-todo.git
+
+
+
+*© 2024 CheckMe Todo. All rights reserved.*cd checkme-todo| Landing Screen | Login Screen | Signup Screen |- **Daily Quotes** - Motivational quotes to keep you inspired
+
+
+
+</div>```
 
 |:---:|:---:|:---:|- **Greeting System** - Time-based greetings (Good Morning, Afternoon, Evening)
 
