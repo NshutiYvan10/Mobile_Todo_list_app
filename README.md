@@ -4,6 +4,30 @@ A premium, multi-platform Flutter productivity app that helps you capture, organ
 
 > Modern. Fast. Insightful. Built with Riverpod, SharedPreferences, and a custom design system.
 
+<p align="center">
+  <a href="https://flutter.dev" target="_blank">
+    <img alt="Flutter" src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  </a>
+  <a href="https://dart.dev" target="_blank">
+    <img alt="Dart" src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  </a>
+  <a href="https://riverpod.dev" target="_blank">
+    <img alt="Riverpod" src="https://img.shields.io/badge/Riverpod-2.x-0EA5E9?style=for-the-badge" />
+  </a>
+  <a href="https://pub.dev/packages/shared_preferences" target="_blank">
+    <img alt="Shared Preferences" src="https://img.shields.io/badge/Shared%20Preferences-2.x-10B981?style=for-the-badge" />
+  </a>
+  <a href="https://pub.dev/packages/intl" target="_blank">
+    <img alt="intl" src="https://img.shields.io/badge/intl-0.19.0-9333EA?style=for-the-badge" />
+  </a>
+  <a href="https://fonts.google.com/" target="_blank">
+    <img alt="Google Fonts" src="https://img.shields.io/badge/Google%20Fonts-Inter-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+  </a>
+  <a href="https://m3.material.io/" target="_blank">
+    <img alt="Material 3" src="https://img.shields.io/badge/Material%203-Design-FF6F61?style=for-the-badge" />
+  </a>
+</p>
+
 ---
 
 ## 🚀 Highlights
@@ -86,16 +110,55 @@ The app follows a **layered, provider-driven architecture** emphasizing declarat
 ## 📂 Folder Structure
 
 ```
-lib/
-  main.dart               # App entry point & root MaterialApp
-  models/                 # Core domain entities (todo, user, badges)
-  providers/              # Riverpod notifiers & computed state providers
-  screens/                # Feature screens (home, analytics, profile, auth, CRUD)
-  theme/                  # Design system & themed configurations
-  widgets/                # Reusable UI components (e.g., todo item)
-  ...
+.
+├── analysis_options.yaml
+├── pubspec.yaml
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   │   ├── badge.dart
+│   │   ├── todo.dart
+│   │   └── user.dart
+│   ├── providers/
+│   │   ├── auth_provider.dart
+│   │   ├── theme_provider.dart
+│   │   └── todo_provider.dart
+│   ├── screens/
+│   │   ├── add_todo_screen.dart
+│   │   ├── analytics_screen.dart
+│   │   ├── home_screen.dart
+│   │   ├── landing_screen.dart
+│   │   ├── login_screen.dart
+│   │   ├── main_navigation.dart
+│   │   ├── profile_screen.dart
+│   │   ├── signup_screen.dart
+│   │   └── todo_detail_screen.dart
+│   ├── theme/
+│   │   └── app_theme.dart
+│   └── widgets/
+│       └── todo_item.dart
+└── test/
+    └── widget_test.dart
 ```
 Other platform directories (`android/`, `ios/`, `web/`, `macos/`, `windows/`, `linux/`) are auto-generated/managed by Flutter.
+
+### Data Flow Diagram
+
+```mermaid
+flowchart LR
+    U[User] -->|interacts| UI[Flutter UI\n(screens, widgets)]
+    UI -->|reads/watches| P[(Riverpod Providers)]
+    P -->|notifies| UI
+    subgraph State
+      PN[StateNotifiers\nAuth/Theme/Todo]
+      DP[Derived Providers\nfiltered/pending/completed/overdue]
+    end
+    P --> PN
+    PN -->|persist JSON| SP[(SharedPreferences)]
+    SP -->|rehydrate| PN
+    PN --> DP
+    DP --> P
+```
 
 ---
 
@@ -112,15 +175,6 @@ Other platform directories (`android/`, `ios/`, `web/`, `macos/`, `windows/`, `l
 | Theming | Light/Dark, semantic color tokens, design system spacing/radius/elevation |
 | Persistence | JSON serialization into `SharedPreferences`, per-user keys |
 | Extensibility | Modular providers simplify adding remote sync or notifications later |
-
----
-
-## 🚧 Current Limitations / Security Notes
-- Passwords stored in plain text (demo only). Replace with secure hashing & backend auth.
-- No real-time sync or multi-device consistency.
-- Streak & time-based badges partially stubbed (needs date tracking).
-- Notifications & reminders not yet implemented.
-- No accessibility audit performed (contrast, semantics, screen reader hints).
 
 ---
 
