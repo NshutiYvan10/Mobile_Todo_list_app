@@ -158,7 +158,9 @@ flowchart LR
   SP -->|rehydrate| PN
   PN --> DP
   DP --> P
-```---
+```
+
+---
 
 ## ✅ Features In Detail
 
