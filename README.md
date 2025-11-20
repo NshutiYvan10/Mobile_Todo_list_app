@@ -53,7 +53,7 @@ A premium, multi-platform Flutter productivity app that helps you capture, organ
 
 <!-- Replace this block with an actual embed or thumbnail -->
 <p align="center">
-    <a href="https://your-video-link.example" target="_blank">
+    <a href="https://youtu.be/mbNrKldG-Hc?si=hSdrHXZF4Qf1NxOq" target="_blank">
         <img src="docs/media/demo-placeholder.png" alt="Demo Video" width="600" style="border-radius:12px;">
     </a>
 </p>
