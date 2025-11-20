@@ -65,6 +65,28 @@ A premium, multi-platform Flutter productivity app that helps you capture, organ
 
 ---
 
+## 📱 Download APK
+
+Experience CheckMe Todo instantly on your Android device.
+
+<p align="center">
+  <a href="https://github.com/your-org/checkme_todo/releases/latest/download/checkme-todo.apk" target="_blank">
+    <img alt="Download APK" src="https://img.shields.io/badge/Download%20APK-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=34A853" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/your-org/checkme_todo/releases/latest/download/checkme-todo.apk" target="_blank">
+    <img src="https://img.shields.io/badge/Latest%20Release-v1.0.0-blue?style=flat-square&logo=github" alt="Latest Release" />
+  </a>
+  <img src="https://img.shields.io/badge/Size-~15MB-green?style=flat-square" alt="APK Size" />
+  <img src="https://img.shields.io/badge/Min%20SDK-21%20(Android%205.0)-orange?style=flat-square&logo=android" alt="Minimum Android Version" />
+</p>
+
+> **Note:** Enable "Install from unknown sources" in your Android settings to install the APK. The app requires Android 5.0 (API level 21) or higher.
+
+---
+
 ## 🧩 Architecture Overview
 
 The app follows a layered, provider-driven architecture emphasizing declarative UI and reactive state.
