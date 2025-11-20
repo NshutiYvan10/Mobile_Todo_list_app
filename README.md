@@ -146,21 +146,19 @@ Other platform directories (`android/`, `ios/`, `web/`, `macos/`, `windows/`, `l
 
 ```mermaid
 flowchart LR
-    U[User] -->|interacts| UI[Flutter UI]
-    UI -->|watches| P[Providers]
-    P -->|notifies| UI
-    subgraph State
-        PN[State Notifiers (Auth, Theme, Todo)]
-        DP[Derived Providers (filtered, pending, completed, overdue)]
-    end
-    P --> PN
-    PN -->|persist JSON| SP[(SharedPreferences)]
-    SP -->|rehydrate| PN
-    PN --> DP
-    DP --> P
-```
-
----
+  U[User] -->|interacts| UI[Flutter UI]
+  UI -->|watches| P[Providers]
+  P -->|notifies| UI
+  subgraph State
+    PN[State Notifiers]
+    DP[Derived Providers]
+  end
+  P --> PN
+  PN -->|persist JSON| SP[(SharedPreferences)]
+  SP -->|rehydrate| PN
+  PN --> DP
+  DP --> P
+```---
 
 ## ✅ Features In Detail
 
